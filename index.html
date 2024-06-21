@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figures Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>BLOQUES LOGICOS DE DIENES</h1>
+    <div>
+    <div id="filtros">
+        <label for="colorFilter">Color:</label>
+        <select id="colorFilter">
+            <option value="">All</option>
+            <option value="blue">Blue</option>
+            <option value="red">Red</option>
+            <option value="yellow">Yellow</option>
+        </select>
+
+        <label for="sizeFilter">Size:</label>
+        <select id="sizeFilter">
+            <option value="">All</option>
+            <option value="large">Large</option>
+            <option value="small">Small</option>
+        </select>
+
+        <label for="typeFilter">Type:</label>
+        <select id="typeFilter">
+            <option value="">All</option>
+            <option value="circle">Circle</option>
+            <option value="square">Square</option>
+            <option value="rectangle">Rectangle</option>
+            <option value="triangle">Triangle</option>
+        </select>
+
+        <label for="thicknessFilter">Thickness:</label>
+        <select id="thicknessFilter">
+            <option value="">All</option>
+            <option value="thick">Thick</option>
+            <option value="thin">Thin</option>
+        </select>
+
+        <button id="filterBtn">Filter</button>
+    </div>
+        
+    </div>
+        
+    </div>
+
+    <div id="figures-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+}
+
+.figure-box {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.figure {
+    position: relative;
+    margin: 5px auto;
+}
+.circle, .square, .rectangle, .triangle {
+    position: relative;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.circle {
+    border-radius: 50%;
+}
+
+#filtros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100px;
+    width: 100%;
+
+    background: #ffff99;
+    color: #333;
+}
